@@ -1,0 +1,17 @@
+debug: true
+env: test
+token: your_token
+private_path: ./private_key.pem
+
+feiShuAlertUrl: https://your_url
+http:
+  addr: 0.0.0.0:8081
+  read_timeout: 300
+  write_timeout: 300
+data:
+  db:
+    source: your_db
+  redis:
+    host: your_redis_host
+    password: your_redis_password
+    expiration: 300
